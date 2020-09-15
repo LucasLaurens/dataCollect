@@ -38,10 +38,22 @@ with python
   * Remplacer lettres dans str : .replace(old, new)
   * Compter combien de fois une lettre est retourné dans une string : .count(param)
   * Avec Python Str est un itérable
-  * type tuple : (val, val2, val3) => itérable mais pas possible d'assigner un item
+  * Type tuple : (val, val2, val3) => itérable mais pas possible d'assigner un item
+  * Pour copier une liste : .copy()
+  * Symetrie : tableau 1 ^ tableau 2
+  * Union : tableau 1 | tableau 2
+  * Intersection : tableau 1 & tableau 2
+  * Dictionnaire : ensemble (clef:valeur):
+    * Acceder à une clef : dico[clef]
+    * Supprimer une clef : del avec la valeur pointé
+    * Ajouter clef:valeur : Juste rajouter dico[nouvelle_clef] = nouvelle value
+    ### {"cle" : value, "cle2" : value2}
+  * Pour avoir un nombre random dans un interval :
+    * Import random
+    * Print(random.randint(number1,number2))
   * Différence entre immutables et mutables :
-    * mutables : Objet que je peux modifier in-situ (ex: list)
-    * immutables : Si je modifie cet objet me retourne un autre object (donc création => ex: valeur d'une var)
+    * Mutables : Objet que je peux modifier in-situ (ex: list)
+    * Immutables : Si je modifie cet objet me retourne un autre object (donc création => ex: valeur d'une var)
 
   ### Bonus
     * Python Magic Method git : https://rszalski.github.io/magicmethods/
