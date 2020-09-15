@@ -46,6 +46,7 @@ with python
   * Il est possible de hasher : hash(key) || hash(dico[key])
   * Il est possible de creer un dico avec le constructeur dict()
   * Il est possible de selectionner des elems dans un dico dans une loop : .keys() || .values() || .items() => keys + values
+  * Pour connaitre la premiere lettre d'une string : str.startwith()
   * Iterable unpacking : var1, var2 = (var1, var2)
     * print("debut {} et fin {}".format(var1, var2))
   * List comprehension et Dict comprehension
