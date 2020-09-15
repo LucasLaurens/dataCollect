@@ -43,12 +43,15 @@ with python
   * Symetrie : tableau 1 ^ tableau 2
   * Union : tableau 1 | tableau 2
   * Intersection : tableau 1 & tableau 2
+  * Il est possible de hasher : hash(key) || hash(dico[key])
   * Dictionnaire : ensemble (clef:valeur):
     * Acceder à une clef : dico[clef]
     * Supprimer une clef : del avec la valeur pointé
     * Ajouter clef:valeur : Juste rajouter dico[nouvelle_clef] = nouvelle value
+
     ### Exemple
       * {"cle" : value, "cle2" : value2}
+
   * Pour avoir un nombre random dans un interval :
     * Import random
     * Print(random.randint(number1,number2))
