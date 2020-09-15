@@ -46,7 +46,8 @@ with python
   * Dans une class il est possible de definir un self pour parler de cette propre instance : exemple (def __init__(self, param))
   * Dans une liste pour prendre les valeurs des items à coté : ex : **dico
   * Intersection : tableau 1 & tableau 2
-  * pour mettre une methode comme instance : @classmethod (peut être appelé directement depuis une instance ou depuis la class)
+  * Pour mettre une methode comme instance : @classmethod (peut être appelé directement depuis une instance ou depuis la class) => param = cls
+  * Il y a aussi @staticmethod pour englober des functions qui ont la meme finalité (ex: class Max avec des functions calculs mathématiques)
   * Il est possible de hasher : hash(key) || hash(dico[key])
   * Il est possible de creer un dico avec le constructeur dict()
   * Il est possible de selectionner des elems dans un dico dans une loop : .keys() || .values() || .items() => keys + values
