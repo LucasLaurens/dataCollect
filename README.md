@@ -33,6 +33,15 @@ with python
   * Creer un range object dans une list (générer) : list(range(start, stop, step))
   * Dans une class il est possible d avoir le param __self__ à une function pour pointer la class : (ex: def __init__ (self):)
   * Savoir si c'est une instance : (ex: if isinstance(object, int))
+  * Str en minuscule : .lower()
+  * Str en majuscule : .upper()
+  * Remplacer lettres dans str : .replace(old, new)
+  * Compter combien de fois une lettre est retourné dans une string : .count(param)
+  * Avec Python Str est un itérable
+  * type tuple : (val, val2, val3) => itérable mais pas possible d'assigner un item
+  * Différence entre immutables et mutables :
+  * * mutables : Objet que je peux modifier in-situ
+  * * immutables : Si je modifie cet objet me retourne un autre object (donc création)
 
   ### Bonus
     * Python Magic Method git : https://rszalski.github.io/magicmethods/
