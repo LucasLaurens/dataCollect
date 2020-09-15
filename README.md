@@ -74,3 +74,28 @@ with python
 
   ### Exemple
     * dico : {"cle" : value, "cle2" : value2}
+    * decorateurs :
+    ```python
+    import time
+
+    def deco(func):
+      def wrap(x):
+        start = time.time()
+        result = func(x)
+        end = time.time()
+        print(end - start)
+        return result
+      return wrap
+
+    def power(x):
+      return x**2
+
+    deco(power)(10)
+
+    ## Ou alors
+    @deco
+    def power(x):
+      return x**2
+
+    print(power(10))
+    ```
