@@ -41,7 +41,9 @@ with python
   * Type tuple : (val, val2, val3) => itérable mais pas possible d'assigner un item
   * Pour copier une liste : .copy()
   * Symetrie : tableau 1 ^ tableau 2
+  * Appliquer une function à une liste : return ** etc... puis list(map(function, list)) || [function(x) for x in list] | de plus il est possible d utiliser filter()
   * Union : tableau 1 | tableau 2
+  * Dans une liste pour prendre les valeurs des items à coté : ex : **dico
   * Intersection : tableau 1 & tableau 2
   * Il est possible de hasher : hash(key) || hash(dico[key])
   * Il est possible de creer un dico avec le constructeur dict()
