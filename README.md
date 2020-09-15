@@ -40,8 +40,8 @@ with python
   * Avec Python Str est un itérable
   * type tuple : (val, val2, val3) => itérable mais pas possible d'assigner un item
   * Différence entre immutables et mutables :
-    * mutables : Objet que je peux modifier in-situ
-    * immutables : Si je modifie cet objet me retourne un autre object (donc création)
+    * mutables : Objet que je peux modifier in-situ (ex: list)
+    * immutables : Si je modifie cet objet me retourne un autre object (donc création => ex: valeur d'une var)
 
   ### Bonus
     * Python Magic Method git : https://rszalski.github.io/magicmethods/
