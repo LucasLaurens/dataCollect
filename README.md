@@ -47,8 +47,8 @@ with python
     * Acceder à une clef : dico[clef]
     * Supprimer une clef : del avec la valeur pointé
     * Ajouter clef:valeur : Juste rajouter dico[nouvelle_clef] = nouvelle value
-    ###
-      {"cle" : value, "cle2" : value2}
+    ### Exemple
+      * {"cle" : value, "cle2" : value2}
   * Pour avoir un nombre random dans un interval :
     * Import random
     * Print(random.randint(number1,number2))
