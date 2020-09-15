@@ -48,10 +48,6 @@ with python
     * Acceder à une clef : dico[clef]
     * Supprimer une clef : del avec la valeur pointé
     * Ajouter clef:valeur : Juste rajouter dico[nouvelle_clef] = nouvelle value
-
-    ### Exemple
-      * {"cle" : value, "cle2" : value2}
-
   * Pour avoir un nombre random dans un interval :
     * Import random
     * Print(random.randint(number1,number2))
@@ -61,3 +57,6 @@ with python
 
   ### Bonus
     * Python Magic Method git : https://rszalski.github.io/magicmethods/
+
+  ### Exemple
+    * dico : {"cle" : value, "cle2" : value2}
