@@ -43,6 +43,7 @@ with python
   * Symetrie : tableau 1 ^ tableau 2
   * Appliquer une function à une liste : return ** etc... puis list(map(function, list)) || [function(x) for x in list] | de plus il est possible d utiliser filter()
   * Union : tableau 1 | tableau 2
+  * Dans une class il est possible de definir un self pour parler de cette propre instance : exemple (def __init__(self, param))
   * Dans une liste pour prendre les valeurs des items à coté : ex : **dico
   * Intersection : tableau 1 & tableau 2
   * Il est possible de hasher : hash(key) || hash(dico[key])
