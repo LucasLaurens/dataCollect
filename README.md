@@ -71,6 +71,7 @@ with python
 
   ### Bonus
     * Python Magic Method git : https://rszalski.github.io/magicmethods/
+    * Intervenant : https://github.com/Luc-Bertin/IIM_1
 
   ### Exemple
     * dico : {"cle" : value, "cle2" : value2}
